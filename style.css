@@ -1,6 +1,6 @@
 body{
     color: #444;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     background-color: #f4f6f9;
     line-height: 1.6;
@@ -21,5 +21,23 @@ header a{
 }
 header h1{
     font-size: 40px;
-    margin: 0;
+    margin: 40;
+}
+
+nav{
+     background-color: #343a40; 
+    text-align:center;
+padding:12px 0;
+}
+nav a{
+    text decoration: none;
+    color: white;
+    margin:0 20px;
+    font-weight: 600;
+    font-size: 18 px;
+    leter-spacing: o.5px;
+}
+nav a:hover{
+    color:#ff6347
+    text-decoration: underline;
 }
